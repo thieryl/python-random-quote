@@ -11,6 +11,7 @@ def primary():
     rnd = random.randint(0, last)
 
     print(quotes[rnd])
+    print(quotes[rnd + 1])
 
 
 if __name__ == "__main__":
